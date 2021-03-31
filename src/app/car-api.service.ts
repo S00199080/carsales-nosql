@@ -37,9 +37,7 @@ addCarData(car:ICar): void{
   this.carsDataCollection.add(JSON.parse(JSON.stringify(car)))
 }
 
-delCarData(carId:string):void{
-  this.carsDataCollection.doc(carId).delete();
-}
+
 
 private handleError(err:HttpErrorResponse) {
   console.log('CarApiService: ' + err.message);

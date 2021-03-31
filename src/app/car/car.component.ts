@@ -18,9 +18,6 @@ export class CarComponent implements OnInit {
   ngOnInit() {
   }
 
-  deleteCar(carId:string)  {
-    console.log(carId);
-    this._carAPIService.delCarData(carId);
-  }
+ 
 
 }
