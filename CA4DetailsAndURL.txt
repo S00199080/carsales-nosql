@@ -1,0 +1,1 @@
+I was unable to get the delte and image functions of the project working, and for some reason i couldnt fully host my project, here is the url: https://carsales-7cbf0.web.app/
